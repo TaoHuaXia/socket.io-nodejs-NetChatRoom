@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NetChat在线聊天室</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/NetChar.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/NetChar.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+<div class="login">
+    <div class="login_content">
+        <h5>欢迎登陆NetChar！</h5>
+        <div class="input_group">
+            <input id="username" type="text" placeholder="请输入您的用户名！">
+            <button type="button" class="btn btn-success" id="login_btn">登陆</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid chatRoom">
+    <div class="row">
+        <div class="col-md-9 col-sm-12 chatBar">
+        </div>
+        <div class="col-md-3 hidden-sm clientBar">
+            <h5>在线用户：</h5>
+            <ul class="clientBar_list">
+            </ul>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid toolsBar"></div>
+<div class="container-fluid keyBar noPadding">
+    <textarea id="key_text">
+
+    </textarea>
+    <button class="pull-right" id="send" type="button">发送</button>
+</div>
+<script>
+    
+
+
+</script>
+</body>
+</html>

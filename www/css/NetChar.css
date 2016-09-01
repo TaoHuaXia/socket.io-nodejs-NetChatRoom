@@ -1,0 +1,114 @@
+.noPadding{ padding: 0!important;}
+body{ position: relative}
+.login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    z-index: 99;
+    background-color: #b5d592;
+}
+.login_content{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 300px;
+    padding: 10px 0;
+    background-color: #fff;
+    border: 1px solid #5bc0de;
+    border-radius: 5px;
+}
+.login_content h5{
+    padding: 0 0 10px 10px;
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+
+}
+.input_group{
+    padding: 10px  ;
+}
+#login_btn{
+    float: right;
+}
+.login_content #username{
+    border: none;
+}
+.login_content #username:focus{ outline: none}
+.chatRoom{
+    height: 70%;
+    border: 2px solid #7CB7D4;
+}
+.chatRoom .row{
+    height: 100%;
+}
+.chatBar,.clientBar{
+    height: 100%;
+    padding: 2%;
+    overflow: auto;
+}
+.login_info{
+    font-size: 13px;
+    color: #9c9a9a;
+    text-align: center;
+    clear: both;
+}
+.clientBar{ border-left: 2px solid #7CB7D4;}
+.clientBar h5{
+    margin: 0!important;
+    font-size: 17px;
+    color: #333;
+}
+.clientBar_list li{ list-style: none}
+.clientBar_list li span{
+    font-size: 13px;
+    color: #555;
+}
+.toolsBar{
+    height: 5%;
+    background-color: #7CB7D4;
+}
+.keyBar{
+    background-color: #fff;
+    height: 25%;
+}
+.myMes,.otherMes{
+    clear: both;
+}
+.time{
+    color: #9c9a9a;
+}
+.name{
+    margin-right: 15px;
+    color: #555;
+}
+.text{
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    text-align: left;
+    line-height: 1.4;
+    color: #fff;
+    background-color: #5bc0de;
+    border-radius: 5px;
+}
+.text:before{
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: -10px;
+    height: 0;
+    border-color: transparent transparent #5bc0de transparent;
+    border-style: dotted dotted  solid dotted;
+    border-width: 5px;
+}
+#key_text{
+    color: #333;
+    width: 100%;
+    height: 80%;
+    border: none;
+}
+#key_text:focus{
+    outline: none;
+}
